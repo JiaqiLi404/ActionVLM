@@ -1,0 +1,40 @@
+###### Requirements without Version Specifiers ######
+mmengine
+wandb
+scipy
+einops
+pandas
+tqdm
+ninja
+imgaug
+pytorchvideo
+timm
+deepspeed
+hydra-core
+flash-attn # pip install flash-attn --no-build-isolation
+peft
+scikit-learn
+nncore
+bitsandbytes
+mmengine
+
+###### Requirements with Version Specifiers ######
+numpy==1.23.5
+gdown==5.1.0
+transformers
+mmaction2==1.2.0 # please install a modified one for supporting numpy2.0+ and transformers4.52+
+mmcv==2.1.0
+mmdet==3.2.0
+mmpose==1.3.2
+
+jax[cuda13]
+
+###### Custom Package Requirements ######
+opentad/models/utils/post_processing/nms 
+opentad/models/roi_heads/roi_extractors/align1d
+opentad/models/roi_heads/roi_extractors/boundary_pooling
+
+######pip install git+https://github.com/Dao-AILab/flash-attention.git@v2.8.3#subdirectory=csrc/layer_norm --no-build-isolation        ## dropout_layer_norm
+######pip install git+https://github.com/Dao-AILab/flash-attention.git@v2.8.3#subdirectory=csrc/fused_dense_lib --no-build-isolation
+######pip install git+https://github.com/imaug/imaug.git
+######pip install git+https://github.com/google-deepmind/videoprism.git
