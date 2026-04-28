@@ -10,7 +10,7 @@ Temporal Action Localization (TAL) requires identifying both the boundaries and 
 
 ## Notes
 This repo is based on [OpenTAD](https://github.com/sming256/OpenTAD). 
-In this first version, we implement Qwen3-VL as the backbone and supress the pure vision-only model by 0.5% mAP in Thumos-14 when both using the VideoMAEv2 vision backbone. In the final version, we further address the modality bias. It will be released once 1. the adaptation to Qwen-series is done and 2. the redundant code and branches are cleaned up.
+In this first version, we implement Qwen3-VL as the backbone and supress the pure vision-only model by 0.5% mAP in Thumos-14 when both using the VideoMAEv2 vision backbone, and supress the VideoMAEv1 variants by ~3%. In the final version, we further address the modality bias. It will be released once 1. the adaptation to Qwen-series is done and 2. the redundant code and branches are cleaned up.
 
 ## 🖊️ Citation
 
